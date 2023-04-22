@@ -11,6 +11,7 @@
 		84578B1029F39815003C75E8 /* TestingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84578B0529F39815003C75E8 /* TestingFramework.framework */; };
 		84578B1529F39815003C75E8 /* TestingFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84578B1429F39815003C75E8 /* TestingFrameworkTests.swift */; };
 		84578B1629F39815003C75E8 /* TestingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 84578B0829F39815003C75E8 /* TestingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84578B4429F39918003C75E8 /* TextValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84578B4329F39918003C75E8 /* TextValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		84578B0929F39815003C75E8 /* TestingFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestingFramework.docc; sourceTree = "<group>"; };
 		84578B0F29F39815003C75E8 /* TestingFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84578B1429F39815003C75E8 /* TestingFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingFrameworkTests.swift; sourceTree = "<group>"; };
+		84578B4329F39918003C75E8 /* TextValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				84578B0829F39815003C75E8 /* TestingFramework.h */,
 				84578B0929F39815003C75E8 /* TestingFramework.docc */,
+				84578B4329F39918003C75E8 /* TextValidator.swift */,
 			);
 			path = TestingFramework;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84578B0A29F39815003C75E8 /* TestingFramework.docc in Sources */,
+				84578B4429F39918003C75E8 /* TextValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +404,7 @@
 		84578B1D29F39815003C75E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -415,6 +420,7 @@
 		84578B1E29F39815003C75E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
